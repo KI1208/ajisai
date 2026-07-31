@@ -15,9 +15,11 @@
 
 ユーザインターフェース：LINE(LINE Messaging APIで連携)
 バックエンド：FASTAPI
-データベース：Cloud SQL
+データベース：Supabase
 ホスティング：Cloud Run
 AI処理：Gemini API
+環境変数管理：Secret Manager
+
 
 日記の入力方法：
 LINEのトークで変身された内容をそのまま記録する。AIで処理はしない。

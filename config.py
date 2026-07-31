@@ -3,6 +3,7 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 
 class Settings(BaseSettings):
     # LINE Messaging API Configuration
+    # ここに実際のキーは入れないこと！.env経由で読まれる。
     LINE_CHANNEL_ACCESS_TOKEN: str = "default_access_token"
     LINE_CHANNEL_SECRET: str = "default_channel_secret"
 
